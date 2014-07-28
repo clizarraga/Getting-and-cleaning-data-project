@@ -1,3 +1,6 @@
+This code book contains all the information regarding the mesurements calculated fot the file result.txt
+wich is the result of all the operations for this data set.
+
 <table>
 	<tr>
 		<th>Variable</th>
