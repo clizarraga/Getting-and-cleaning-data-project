@@ -1,0 +1,14 @@
+<table>
+	<tr>
+		<th>Variable</th>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Unit</th>
+	</tr>
+	<tr>
+		<td></td>
+		<td></td>
+		<td></td>
+		<td></td>
+	</tr>	
+</table>
