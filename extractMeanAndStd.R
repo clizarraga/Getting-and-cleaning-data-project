@@ -1,4 +1,5 @@
 
+# Base on a data subset and the descriptors of each column determines wich one of them is related to the mean and the standar dev and subsets it
 
 extractMeanAndStd <- function(data) 
 {

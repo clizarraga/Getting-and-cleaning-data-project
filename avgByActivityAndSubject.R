@@ -1,4 +1,5 @@
 
+# This function takes a given data set and calculates the average of each column grouped by Subject and Activity
 
 avgByActivityAndSubject <- function(data) 
 {

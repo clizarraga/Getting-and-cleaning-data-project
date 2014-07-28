@@ -1,12 +1,16 @@
 This code book contains all the information regarding the mesurements calculated fot the file result.txt
 wich is the result of all the operations for this data set.
 
+The name of the main variables are called VX, to simplify the operations
+
 <table>
 	<tr>
 		<th>Variable</th>
 		<th>Description</th>
-		<th>Unit</th>
+		<th>Units</th>
 	</tr>
+<tr><td>Subject.Id</td><td> Number of the subject studied </td><td>Person</td></tr>
+<tr><td>Activity.Name</td><td> The name of the activity performed </td><td>Activity</td></tr>
 <tr><td>V1</td><td> Body Accelerometer Calculated Mean for the X axis</td><td> Time</td></tr>
 <tr><td>V2</td><td> Body Accelerometer standard deviation for the X axis</td><td> Time</td></tr>
 <tr><td>V3</td><td> Body Accelerometer Calculated Mean for the Y axis</td><td> Time</td></tr>
@@ -73,4 +77,5 @@ wich is the result of all the operations for this data set.
 <tr><td>V64</td><td> Body Gyroscope using Euclidean Norm standard deviation</td><td> Frecuency</td></tr>
 <tr><td>V65</td><td> Body Gyroscope using Jerk Signals and Euclidean Norm Calculated Mean</td><td> Frecuency</td></tr>
 <tr><td>V66</td><td> Body Gyroscope using Jerk Signals and Euclidean Norm standard deviation</td><td> Frecuency</td></tr>	
+<tr><td>Activity.Id</td><td> Id of the given activity </td><td>Activity</td></tr>
 </table>

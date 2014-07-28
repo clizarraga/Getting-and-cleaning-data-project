@@ -1,8 +1,15 @@
+# The libraries to be used
 library(data.table)
 
+# The codes needed to call each of the functions
 source('./mergeTraingAndTestData.R')
 source('./extractMeanAndStd.R')
 source('./avgByActivityAndSubject.R')
+
+# This function performs all the operations in three steps (functions)
+# 1. Merging and consolidating Data
+# 2. Extracting the subset related to mean and std
+# 3. Calculating the Average of each of the variables specified in the previous subset.
 
 run_analysis <- function()
 {

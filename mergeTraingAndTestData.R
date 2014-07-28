@@ -1,8 +1,9 @@
 
-# precondition: Data must be in the same directory as the script and must preserve the names and file structure provided in the .zip file
+# Notice: The data must be in the same directory as the script and must preserve the names and file structure provided in the .zip file
 # reference: https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip 
+# aditional columns => activities and subject 
 
-# aditional columns => activities, subject and type (Test or training)
+# this function takes all the information in the files for train and tes data and compiles it into a single dataset
 
 mergeTraingAndTestData <- function() 
 {
